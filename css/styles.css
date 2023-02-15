@@ -1,0 +1,183 @@
+/* Navigation Section */
+
+nav {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Body Section */
+
+.container-fluid {
+    padding: 3% 15% 7%;
+    position: static;
+    z-index: -2;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 5rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    padding: 1%;
+    margin-right: 1%;
+    position: relative;
+    z-index: 1;
+}
+
+#dog-pic {
+    transform: rotate(30deg);
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    #dog-pic {
+        transform: rotate(0);
+        position: static;
+        padding-top: 5%;
+    }
+
+    #title {
+        text-align: center;
+}
+}
+
+/* Features Section */
+
+#features {
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-img {
+    color: #ef8172;
+    padding: 2rem;
+}
+
+.feature-img:hover{
+    color: #ff4c68;
+}
+
+#features {
+    padding: 5% 15%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.features-box {
+    padding: 8%;
+}
+
+/* Testimonial Section */
+
+#testimonial-carousel {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: white;    
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.price-card {
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta {
+    color: white;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-title {
+    font-size: 3.5rem;
+}
+
+.cta-button {
+    margin: 3%;
+    padding: 1% 2%;
+}
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    padding: 3% 15%;
+    background-color: white;
+}
+
+.footer-icon {
+    padding: 1%;
+}
